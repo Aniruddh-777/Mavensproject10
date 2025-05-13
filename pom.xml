@@ -24,6 +24,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <mainClass>com.mavenproject10
+  <build>
+    <plugins>
+      <plugin>
+        <groupID>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin/</artifactId>
+          <version>3.2.2</version>
+          <archive>
+            <manifest>
+  <mainClass>com.project10.project10.App</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      <plugin>
+    </plugins>
+  </build>
 </project>
